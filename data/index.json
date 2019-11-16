@@ -1,2802 +1,1089 @@
 {
-    "10": [
-        44
-    ],
-    "100": [
-        36,
-        48
-    ],
-    "187m": [
-        30
+    "1300": [
+        16
     ],
     "19": [
-        7,
-        51,
-        66
+        23
     ],
-    "2003": [
-        60
-    ],
-    "2016": [
-        16
-    ],
-    "2019": [
-        23,
-        41,
-        42,
-        45,
-        47,
-        53,
-        54,
-        56,
-        57,
-        58,
-        59,
-        68,
-        69
+    "200000": [
+        3
     ],
     "2020": [
-        4
+        2
     ],
-    "2025": [
-        53
+    "250": [
+        7
     ],
-    "2030": [
-        61
-    ],
-    "23": [
-        66
-    ],
-    "24hour": [
-        76
-    ],
-    "25": [
-        10
-    ],
-    "40": [
-        29
-    ],
-    "5": [
-        28
+    "41": [
+        20
     ],
     "50": [
-        30
+        1
     ],
-    "5g": [
-        61
-    ],
-    "60": [
-        51
-    ],
-    "80": [
-        51
-    ],
-    "814": [
-        23
+    "500": [
+        17
     ],
     "abruptly": [
-        25
+        21
     ],
-    "abundant": [
-        33
-    ],
-    "accuses": [
-        43
+    "acquittal": [
+        6
     ],
     "across": [
-        19,
-        23
+        18
     ],
-    "actor": [
-        60
+    "aerospace": [
+        16
     ],
-    "adult": [
-        53
+    "affected": [
+        10
     ],
-    "adviser": [
-        2
-    ],
-    "aeroflot": [
-        31
-    ],
-    "affair": [
-        70
-    ],
-    "africa": [
-        23,
-        39
-    ],
-    "age": [
-        51,
-        66
-    ],
-    "agony": [
-        64
-    ],
-    "agree": [
-        4
+    "ahead": [
+        13
     ],
     "air": [
-        31,
-        35
+        16
     ],
-    "airline": [
-        31
+    "airstrike": [
+        12
     ],
-    "alcoholic": [
-        5
+    "allow": [
+        28
     ],
-    "alden": [
-        49
+    "alors": [
+        28
     ],
-    "ally": [
-        2
-    ],
-    "already": [
-        10
-    ],
-    "amateur": [
-        6
+    "alternative": [
+        26
     ],
     "ambassador": [
-        25
+        19,
+        21
     ],
-    "amend": [
-        11
-    ],
-    "amendment": [
-        35
+    "america": [
+        13
     ],
     "american": [
-        16
+        2,
+        28
+    ],
+    "among": [
+        7
+    ],
+    "ancient": [
+        13
     ],
     "andrew": [
-        40
+        9
     ],
-    "angler": [
-        72
+    "anger": [
+        14
     ],
-    "angrily": [
-        34
-    ],
-    "animal": [
-        50
-    ],
-    "anna": [
-        49
-    ],
-    "answer": [
-        41,
-        58,
-        68
-    ],
-    "antlerdeer": [
-        6
-    ],
-    "ape": [
-        32
-    ],
-    "apologise": [
-        37
-    ],
-    "apologises": [
-        39
-    ],
-    "appal": [
+    "anniversary": [
         3
     ],
-    "appeal": [
-        42
+    "anticolonial": [
+        26
     ],
-    "appear": [
-        77
+    "antidote": [
+        24
     ],
-    "april": [
-        4
+    "antigovernment": [
+        3
     ],
     "area": [
-        19
-    ],
-    "around": [
-        66,
-        78
-    ],
-    "arrive": [
-        44
-    ],
-    "artist": [
-        67
-    ],
-    "asks": [
-        34,
-        55
-    ],
-    "assault": [
-        77
+        18
     ],
     "attack": [
-        3,
-        28,
-        36
+        5,
+        19
     ],
     "australia": [
-        19,
-        37
+        7,
+        18
     ],
     "australian": [
-        19
-    ],
-    "baby": [
-        75
-    ],
-    "back": [
-        16,
-        24
-    ],
-    "background": [
-        55
-    ],
-    "bad": [
-        19,
-        29
-    ],
-    "ban": [
-        21
-    ],
-    "barlow": [
-        49
-    ],
-    "basic": [
-        53
-    ],
-    "battery": [
-        33
-    ],
-    "battle": [
-        9
-    ],
-    "bbc": [
-        27,
-        40,
-        41,
-        42,
-        54,
-        55,
-        68
-    ],
-    "bbcs": [
-        7,
-        69
-    ],
-    "begin": [
-        24
-    ],
-    "beginner": [
-        27
-    ],
-    "behind": [
-        30,
-        35
-    ],
-    "best": [
-        23
-    ],
-    "beyond": [
-        23
-    ],
-    "big": [
-        56,
-        62,
-        63
-    ],
-    "bill": [
-        28
-    ],
-    "birth": [
-        76
-    ],
-    "blackpool": [
-        57
-    ],
-    "blaze": [
-        78
-    ],
-    "block": [
-        67,
-        78
-    ],
-    "board": [
-        76
-    ],
-    "bolivia": [
-        12
-    ],
-    "bolton": [
-        78
-    ],
-    "book": [
-        63
-    ],
-    "boris": [
-        41,
-        54,
-        55,
-        68
-    ],
-    "borrowing": [
-        47
-    ],
-    "bottle": [
-        73
-    ],
-    "bow": [
-        4
-    ],
-    "boy": [
-        77
-    ],
-    "bradshawgate": [
-        78
-    ],
-    "bramwell": [
-        77
-    ],
-    "brand": [
-        21
-    ],
-    "branson": [
-        39
-    ],
-    "break": [
-        27,
-        78
-    ],
-    "breakfast": [
-        55
-    ],
-    "breast": [
-        64,
-        67
-    ],
-    "brexit": [
-        57
-    ],
-    "broadband": [
-        45,
-        61,
-        69
-    ],
-    "broken": [
-        75
-    ],
-    "bt": [
-        45
-    ],
-    "bushfires": [
-        19,
-        37
-    ],
-    "california": [
-        26
-    ],
-    "cambridgeshire": [
-        51
-    ],
-    "camera": [
-        13
-    ],
-    "cameron": [
-        74
-    ],
-    "camp": [
-        11,
-        34
-    ],
-    "campaign": [
-        69
-    ],
-    "canal": [
-        9
-    ],
-    "cancer": [
-        67
-    ],
-    "capitalism": [
-        47
-    ],
-    "captain": [
-        5
-    ],
-    "car": [
-        33,
-        73
-    ],
-    "care": [
-        64,
-        66,
-        76
-    ],
-    "carefully": [
-        8
-    ],
-    "case": [
-        14
-    ],
-    "cat": [
-        31
-    ],
-    "catt": [
-        69
-    ],
-    "cause": [
-        71
-    ],
-    "celebrate": [
-        16
-    ],
-    "celebrity": [
-        42
-    ],
-    "celtic": [
-        46
-    ],
-    "centre": [
-        36
-    ],
-    "certain": [
-        48
-    ],
-    "change": [
-        30,
-        34,
-        35,
-        47,
-        62,
-        63,
-        71
-    ],
-    "charge": [
-        2,
-        75
-    ],
-    "charity": [
-        42
-    ],
-    "cheat": [
-        60
-    ],
-    "check": [
-        54
-    ],
-    "cheng": [
-        3
-    ],
-    "child": [
-        41,
-        42,
-        75
-    ],
-    "childcare": [
-        58
-    ],
-    "chile": [
-        4
-    ],
-    "china": [
-        3,
-        10
-    ],
-    "choose": [
-        29
-    ],
-    "chris": [
-        60
-    ],
-    "christchurch": [
-        28
-    ],
-    "chronic": [
-        64
-    ],
-    "church": [
-        74
-    ],
-    "city": [
-        9,
-        30,
-        36,
-        46
-    ],
-    "claim": [
-        17,
-        43,
-        54
-    ],
-    "clarita": [
-        26
-    ],
-    "cliff": [
-        72
-    ],
-    "climate": [
-        30,
-        35,
-        47,
-        62,
-        71
-    ],
-    "close": [
-        9,
-        78
-    ],
-    "closer": [
-        20
-    ],
-    "coal": [
-        16
-    ],
-    "cobalt": [
-        33
-    ],
-    "cocktail": [
-        5
-    ],
-    "collect": [
-        10
-    ],
-    "collection": [
-        22
-    ],
-    "come": [
-        11
-    ],
-    "comment": [
-        74
-    ],
-    "community": [
-        28
-    ],
-    "complain": [
-        11
-    ],
-    "complaint": [
-        11
-    ],
-    "complicate": [
-        15
-    ],
-    "computer": [
-        22
-    ],
-    "condemns": [
-        3
-    ],
-    "conditioning": [
-        35
-    ],
-    "confirms": [
-        44
-    ],
-    "congress": [
-        2,
-        25
-    ],
-    "connect": [
-        55
-    ],
-    "constituency": [
-        49
-    ],
-    "contaminate": [
-        48
-    ],
-    "continent": [
-        23
-    ],
-    "convert": [
-        28
-    ],
-    "convict": [
-        2,
-        40
-    ],
-    "cool": [
-        35
-    ],
-    "coordinate": [
-        8
-    ],
-    "corbyn": [
-        74
-    ],
-    "cornwall": [
-        72
-    ],
-    "correspondent": [
-        70
-    ],
-    "cost": [
-        45,
-        58
-    ],
-    "could": [
-        21,
-        55
-    ],
-    "couldnt": [
-        64
-    ],
-    "country": [
-        4,
-        13,
-        16,
-        24
-    ],
-    "couple": [
-        75
-    ],
-    "court": [
-        43,
-        77
-    ],
-    "cover": [
-        45
-    ],
-    "cox": [
-        49
-    ],
-    "crack": [
-        64
-    ],
-    "crash": [
-        51
-    ],
-    "crisis": [
-        12
-    ],
-    "critical": [
-        20
-    ],
-    "criticise": [
-        1,
-        39
-    ],
-    "crown": [
-        77
-    ],
-    "cruelty": [
-        75
-    ],
-    "cwm": [
-        76
-    ],
-    "daily": [
-        43
-    ],
-    "data": [
-        71
-    ],
-    "day": [
-        16,
-        44
-    ],
-    "deal": [
-        10,
-        36,
-        52
-    ],
-    "death": [
-        11,
-        34,
-        48
-    ],
-    "decarbonise": [
-        47
-    ],
-    "decision": [
-        11,
-        65
-    ],
-    "declare": [
-        30
-    ],
-    "deep": [
-        33
-    ],
-    "deeper": [
-        15
-    ],
-    "deer": [
-        6
-    ],
-    "deliver": [
-        45
-    ],
-    "demand": [
-        4,
-        33
-    ],
-    "democrat": [
-        17
-    ],
-    "dems": [
-        47
-    ],
-    "denies": [
-        73
-    ],
-    "depend": [
-        33,
-        52
-    ],
-    "describe": [
-        70
-    ],
-    "desiccate": [
-        5
-    ],
-    "despite": [
-        64
-    ],
-    "detail": [
-        43
-    ],
-    "devil": [
-        11,
-        34
-    ],
-    "dick": [
-        5
-    ],
-    "die": [
-        48,
-        50
-    ],
-    "different": [
-        52,
-        55
-    ],
-    "difficulty": [
-        76
-    ],
-    "digital": [
-        22
-    ],
-    "disabled": [
-        53,
-        76
-    ],
-    "disaster": [
-        30
-    ],
-    "discussion": [
-        56
-    ],
-    "documentary": [
-        34
-    ],
-    "donald": [
-        2,
-        14,
-        17,
-        18,
-        44
-    ],
-    "dont": [
-        24
-    ],
-    "door": [
-        11,
-        34
-    ],
-    "drama": [
-        60
-    ],
-    "dress": [
-        22
-    ],
-    "drought": [
-        29
-    ],
-    "duchess": [
-        43
-    ],
-    "due": [
-        78
-    ],
-    "duke": [
-        40
-    ],
-    "durwood": [
-        35
-    ],
-    "duty": [
-        28
-    ],
-    "dy": [
-        5,
-        51
-    ],
-    "early": [
-        10
-    ],
-    "earth": [
-        35
-    ],
-    "economic": [
-        29
-    ],
-    "eight": [
-        77
-    ],
-    "eighteen": [
-        51
-    ],
-    "election": [
-        41,
-        45,
-        47,
-        53,
-        54,
-        56,
-        57,
-        58,
-        59,
-        61,
-        68,
-        69
-    ],
-    "electric": [
-        33
-    ],
-    "emerge": [
-        43,
-        74
-    ],
-    "end": [
-        63,
-        73
-    ],
-    "entangle": [
-        50
-    ],
-    "entrance": [
-        60
-    ],
-    "envoy": [
-        1
-    ],
-    "epstein": [
-        40
-    ],
-    "essential": [
-        33
-    ],
-    "european": [
-        57
-    ],
-    "evacuate": [
-        26
-    ],
-    "even": [
-        24
-    ],
-    "event": [
-        62,
-        69
-    ],
-    "ever": [
-        32,
-        55
-    ],
-    "every": [
-        53,
-        61
-    ],
-    "everyones": [
-        57
-    ],
-    "evidence": [
-        14
-    ],
-    "evo": [
-        12
-    ],
-    "evolution": [
-        32
-    ],
-    "exam": [
-        38
-    ],
-    "exchange": [
-        8
-    ],
-    "exile": [
-        12
-    ],
-    "exist": [
-        22
-    ],
-    "expel": [
-        24
-    ],
-    "explosion": [
-        36
-    ],
-    "extinct": [
-        32
-    ],
-    "extra": [
-        47,
-        53
-    ],
-    "extreme": [
-        62
-    ],
-    "face": [
-        12
-    ],
-    "facebook": [
-        67
-    ],
-    "factchecked": [
-        54
-    ],
-    "fall": [
-        31,
-        64
-    ],
-    "famed": [
-        5
-    ],
-    "family": [
-        72
-    ],
-    "famous": [
-        63
-    ],
-    "fashion": [
-        22
-    ],
-    "fat": [
-        31
-    ],
-    "fear": [
-        20
-    ],
-    "fibre": [
-        61
-    ],
-    "fight": [
-        35
-    ],
-    "film": [
-        42
-    ],
-    "financial": [
-        20
-    ],
-    "fire": [
-        19,
-        26,
-        62,
-        78
-    ],
-    "firefighter": [
-        37
-    ],
-    "first": [
-        14,
-        40,
-        68
-    ],
-    "five": [
-        8,
-        47
-    ],
-    "flat": [
-        78
-    ],
-    "flight": [
-        7,
-        31
-    ],
-    "float": [
-        5
-    ],
-    "flood": [
-        9,
-        30,
-        41,
-        62
-    ],
-    "flour": [
-        21
-    ],
-    "food": [
-        29
-    ],
-    "football": [
-        46
-    ],
-    "force": [
-        29
-    ],
-    "form": [
-        22,
-        65
-    ],
-    "formal": [
-        17
-    ],
-    "former": [
-        1,
-        2,
-        25,
-        70
-    ],
-    "fossilise": [
-        32
-    ],
-    "foul": [
-        31
-    ],
-    "found": [
-        50
-    ],
-    "four": [
-        66
-    ],
-    "fourweekold": [
-        75
-    ],
-    "fracture": [
-        75
-    ],
-    "free": [
-        45,
-        69
-    ],
-    "freed": [
-        8
-    ],
-    "frequency": [
-        62
-    ],
-    "full": [
-        10
-    ],
-    "fullfibre": [
-        61
-    ],
-    "fund": [
-        47
-    ],
-    "future": [
-        33
-    ],
-    "galin": [
-        31
-    ],
-    "game": [
-        22
-    ],
-    "general": [
-        41,
-        45,
-        47,
-        53,
-        54,
-        56,
-        57,
-        59,
-        61,
-        68
-    ],
-    "generate": [
-        65
-    ],
-    "get": [
-        15,
-        53,
-        64,
-        73
-    ],
-    "giant": [
-        45
-    ],
-    "girl": [
-        48,
-        76
-    ],
-    "give": [
-        61
-    ],
-    "glasgow": [
-        48
-    ],
-    "global": [
-        35,
-        62
-    ],
-    "go": [
-        13,
-        27,
-        36,
-        63
-    ],
-    "government": [
-        4
-    ],
-    "great": [
-        32
-    ],
-    "green": [
-        53
-    ],
-    "guide": [
-        27
-    ],
-    "gunman": [
-        26
-    ],
-    "hack": [
-        20,
-        71
-    ],
-    "half": [
-        7
-    ],
-    "happen": [
-        71
-    ],
-    "happens": [
-        24
-    ],
-    "hardship": [
-        29
-    ],
-    "haul": [
-        7
-    ],
-    "health": [
-        48,
-        64,
-        76
-    ],
-    "heard": [
-        72
-    ],
-    "hearing": [
-        13,
-        14
-    ],
-    "hears": [
-        14
-    ],
-    "heartland": [
-        13
-    ],
-    "heckle": [
-        74
-    ],
-    "helen": [
-        69
-    ],
-    "help": [
-        17,
-        25,
-        42,
-        45
-    ],
-    "here": [
-        15
-    ],
-    "high": [
-        30
-    ],
-    "hit": [
-        30
-    ],
-    "hoax": [
-        71
-    ],
-    "hold": [
-        4,
-        19
-    ],
-    "home": [
-        12,
-        20,
-        24,
-        37,
-        61,
-        70
-    ],
-    "homeless": [
-        66,
-        70
-    ],
-    "homelessness": [
-        70
-    ],
-    "homophobic": [
-        74
-    ],
-    "hong": [
-        3
-    ],
-    "hospital": [
-        48,
-        51
-    ],
-    "host": [
-        60
-    ],
-    "hour": [
-        7
-    ],
-    "hourlong": [
-        54
-    ],
-    "house": [
-        37
-    ],
-    "hq": [
-        67
-    ],
-    "huge": [
-        67
-    ],
-    "human": [
-        5,
-        21,
-        71
-    ],
-    "hundred": [
-        10
-    ],
-    "immigration": [
-        69
-    ],
-    "impact": [
-        71
-    ],
-    "impeach": [
-        14,
-        17
-    ],
-    "impeachment": [
-        1,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        27
-    ],
-    "impressive": [
-        46
-    ],
-    "inaccurate": [
-        11
-    ],
-    "income": [
-        53
-    ],
-    "india": [
-        20
-    ],
-    "industry": [
-        22
-    ],
-    "indyref": [
-        46
-    ],
-    "inflatable": [
-        67
-    ],
-    "influence": [
-        62
-    ],
-    "infrastructure": [
-        20
-    ],
-    "ingredient": [
-        33
-    ],
-    "injured": [
-        51
-    ],
-    "injury": [
-        75
-    ],
-    "inquiry": [
-        1,
-        2,
-        17,
-        27
-    ],
-    "interest": [
-        25
-    ],
-    "interim": [
-        12
-    ],
-    "internet": [
-        61
-    ],
-    "interview": [
-        40
-    ],
-    "intimidate": [
-        1
-    ],
-    "invent": [
-        5
-    ],
-    "inventor": [
-        5
-    ],
-    "islam": [
-        28
-    ],
-    "islamic": [
-        24
-    ],
-    "islamophobic": [
-        74
-    ],
-    "issue": [
-        20
-    ],
-    "italian": [
-        9,
-        30
-    ],
-    "jail": [
-        49,
-        77
-    ],
-    "jeanine": [
-        12
-    ],
-    "jeffrey": [
-        40
-    ],
-    "jo": [
-        49
-    ],
-    "job": [
-        65
-    ],
-    "johnson": [
-        41,
-        54,
-        55,
-        68
-    ],
-    "join": [
-        67
-    ],
-    "jones": [
-        7
-    ],
-    "joseph": [
-        73
-    ],
-    "june": [
-        70
-    ],
-    "jura": [
-        50
-    ],
-    "justice": [
-        3
-    ],
-    "kelly": [
-        70
-    ],
-    "kenya": [
-        21
-    ],
-    "kerry": [
-        66
-    ],
-    "key": [
-        27,
-        35,
-        57
-    ],
-    "kickstarted": [
         18
     ],
-    "kid": [
-        66
-    ],
-    "kiev": [
-        25
-    ],
-    "kill": [
-        26,
-        48
-    ],
-    "kong": [
-        3
-    ],
-    "kongs": [
-        3
-    ],
-    "labour": [
-        45,
-        61,
-        69
-    ],
-    "large": [
-        32
-    ],
-    "launch": [
-        39
-    ],
-    "laura": [
-        38
-    ],
-    "leader": [
-        12
-    ],
-    "learn": [
-        14,
-        76
-    ],
-    "learns": [
-        22
-    ],
-    "least": [
-        26,
-        53
-    ],
-    "leave": [
-        29,
-        57
-    ],
-    "legislator": [
-        6
-    ],
-    "let": [
-        40,
-        48
-    ],
-    "letter": [
-        49
-    ],
-    "level": [
-        36
-    ],
-    "lib": [
-        47
-    ],
-    "lie": [
-        2,
-        48
-    ],
-    "life": [
-        66,
-        70
-    ],
-    "light": [
-        32
-    ],
-    "like": [
-        70
-    ],
-    "link": [
-        40,
-        62
-    ],
-    "lip": [
-        57
-    ],
-    "listener": [
-        68
-    ],
-    "lithuania": [
-        8
-    ],
-    "live": [
-        28,
-        32,
-        70
-    ],
-    "london": [
-        3,
-        7,
-        44
-    ],
-    "londonbased": [
-        38
-    ],
-    "look": [
-        54,
-        59,
-        69
-    ],
-    "love": [
-        46
-    ],
-    "luke": [
-        7
-    ],
-    "luntley": [
-        72
-    ],
-    "m": [
-        49
-    ],
-    "mail": [
-        43
-    ],
-    "main": [
-        9,
-        18,
-        48,
-        69
-    ],
-    "maize": [
-        21
-    ],
-    "major": [
-        35
-    ],
-    "make": [
-        16,
-        19,
-        29,
-        34,
-        54,
-        65,
-        74
-    ],
-    "malaysia": [
-        38
-    ],
-    "malaysian": [
-        38
-    ],
-    "man": [
-        35,
-        37,
-        49,
-        72
-    ],
-    "managerial": [
-        65
-    ],
-    "many": [
-        20,
-        39
-    ],
-    "map": [
-        11,
-        34
-    ],
-    "marginal": [
-        57
-    ],
-    "mary": [
-        63
-    ],
-    "matron": [
-        77
-    ],
-    "matter": [
-        52,
-        59
-    ],
-    "may": [
-        33
-    ],
-    "mayor": [
-        30
-    ],
-    "mccann": [
-        73
-    ],
-    "mccanns": [
-        73
-    ],
-    "medical": [
-        67
-    ],
-    "medicine": [
-        29
-    ],
-    "meeting": [
-        65
-    ],
-    "megadump": [
-        10
-    ],
-    "meghan": [
-        43
-    ],
-    "melissa": [
-        38
-    ],
-    "member": [
-        24
-    ],
-    "message": [
-        38
-    ],
-    "metal": [
-        33
-    ],
-    "michael": [
-        60
-    ],
-    "michigan": [
-        6
-    ],
-    "middle": [
-        1
-    ],
-    "mikhail": [
-        31
-    ],
-    "mile": [
-        31
-    ],
-    "milk": [
-        37
-    ],
-    "million": [
-        6,
-        10
-    ],
-    "millionaire": [
-        60
-    ],
-    "milly": [
-        48
-    ],
-    "minibus": [
-        51
-    ],
-    "mining": [
-        33
-    ],
-    "minister": [
-        11,
-        34,
-        54,
-        68,
-        74
-    ],
-    "model": [
-        46
-    ],
-    "month": [
-        77
-    ],
-    "mop": [
-        55
-    ],
-    "morale": [
-        12
-    ],
-    "mosque": [
-        28
-    ],
-    "mother": [
-        48
-    ],
-    "move": [
-        18
-    ],
-    "munchetty": [
-        55
-    ],
-    "music": [
-        42
-    ],
-    "muslim": [
-        28
-    ],
-    "mysterious": [
-        32
-    ],
-    "naga": [
-        55
-    ],
-    "nanny": [
-        63
-    ],
-    "nationalisation": [
-        56
-    ],
-    "nato": [
-        44
-    ],
-    "nazi": [
-        11,
-        34
-    ],
-    "need": [
-        42,
-        76
-    ],
-    "netflix": [
-        11,
-        34
-    ],
-    "new": [
-        9,
-        32,
-        37
-    ],
-    "newspaper": [
-        43
-    ],
-    "next": [
-        11,
-        34
-    ],
-    "nh": [
-        64
-    ],
-    "nipple": [
-        67
-    ],
-    "nonstop": [
-        7
-    ],
-    "norway": [
-        8
-    ],
-    "nottingham": [
-        49
-    ],
-    "november": [
-        23
-    ],
-    "number": [
-        78
-    ],
-    "obsolete": [
-        61
-    ],
-    "offender": [
-        40
-    ],
-    "offer": [
-        53,
-        69
-    ],
-    "offering": [
-        52
-    ],
-    "official": [
-        3,
-        48
-    ],
-    "onboard": [
-        7
-    ],
-    "one": [
-        6,
-        66
-    ],
-    "online": [
-        20
-    ],
-    "open": [
-        17,
-        26
-    ],
-    "ordeal": [
-        73
-    ],
-    "outside": [
-        67
-    ],
-    "overweight": [
-        31
-    ],
-    "owe": [
-        37
-    ],
-    "owner": [
-        37
-    ],
-    "pain": [
-        64
-    ],
-    "paper": [
-        43
-    ],
-    "paraglider": [
-        38
-    ],
-    "parent": [
-        75
-    ],
-    "part": [
-        8
-    ],
-    "partnationalise": [
-        45
-    ],
-    "party": [
-        47,
-        58,
-        59
-    ],
-    "passenger": [
-        51
-    ],
-    "patient": [
-        67
-    ],
-    "pay": [
-        76
-    ],
-    "payment": [
-        53
-    ],
-    "people": [
-        19,
-        26,
-        29,
-        39,
-        53,
-        55,
-        70
-    ],
-    "per": [
-        53
-    ],
-    "pesident": [
-        12
-    ],
-    "phonein": [
-        54
-    ],
-    "photo": [
-        23
-    ],
-    "photographer": [
-        6
-    ],
-    "plan": [
-        47,
-        53
-    ],
-    "plastic": [
-        50
-    ],
-    "play": [
-        52
-    ],
-    "player": [
-        18
-    ],
-    "pledge": [
-        45,
-        47
-    ],
-    "point": [
-        27,
-        56
-    ],
-    "pointless": [
-        65
-    ],
-    "poisonous": [
-        21
-    ],
-    "poland": [
-        11,
-        34
-    ],
-    "police": [
-        36
-    ],
-    "policy": [
-        45
-    ],
-    "political": [
-        17,
-        59
-    ],
-    "politician": [
-        52
-    ],
-    "polling": [
-        44
-    ],
-    "poppins": [
-        63
-    ],
-    "porthcothan": [
-        72
-    ],
-    "postcode": [
-        52
-    ],
-    "preelection": [
-        44
-    ],
-    "president": [
-        1,
-        2,
-        14,
-        17,
-        44
-    ],
-    "prime": [
-        11,
-        34,
-        54,
-        68
-    ],
-    "prince": [
-        40
-    ],
-    "privatisation": [
-        56
-    ],
-    "problem": [
-        10,
-        19
-    ],
-    "programme": [
-        41,
-        54,
-        68
-    ],
-    "promise": [
-        61
-    ],
-    "promising": [
-        58
-    ],
-    "prosecute": [
-        12
-    ],
-    "prosecution": [
-        12
-    ],
-    "protest": [
-        3,
-        4,
-        67
-    ],
-    "protester": [
-        3
-    ],
-    "public": [
-        14,
-        27,
-        41
-    ],
-    "put": [
-        50
-    ],
-    "question": [
-        38,
-        41,
-        58,
-        68
-    ],
-    "quiz": [
-        41
-    ],
-    "radio": [
-        28
-    ],
-    "ran": [
-        66
-    ],
-    "rape": [
-        73
-    ],
-    "rare": [
-        6
-    ],
-    "rather": [
-        55
-    ],
-    "reacts": [
-        34
-    ],
-    "real": [
-        20
-    ],
-    "reality": [
-        54
-    ],
-    "really": [
-        65
-    ],
-    "recall": [
-        25
-    ],
-    "recreates": [
-        60
-    ],
-    "reduction": [
-        64
-    ],
-    "referendum": [
-        4
-    ],
-    "removal": [
-        25
-    ],
-    "repeatedly": [
-        73
-    ],
-    "reporter": [
-        27
-    ],
-    "represent": [
-        28
-    ],
-    "rescue": [
-        72
-    ],
-    "retire": [
-        6
-    ],
-    "return": [
-        12
-    ],
-    "rev": [
-        74
-    ],
-    "rib": [
-        75
-    ],
-    "richard": [
-        39,
-        74
-    ],
-    "ripon": [
-        77
-    ],
-    "rise": [
-        9,
-        62
-    ],
-    "road": [
-        78
-    ],
-    "rod": [
-        46
-    ],
-    "roger": [
+    "average": [
         2
     ],
-    "role": [
-        59
+    "away": [
+        27
     ],
-    "roll": [
-        13
+    "bad": [
+        18
     ],
-    "rough": [
-        70
+    "barrack": [
+        4
     ],
-    "russia": [
-        2,
-        8,
-        41
+    "barricade": [
+        4
     ],
-    "russialithuanianorway": [
-        8
+    "bbcs": [
+        23
     ],
-    "russian": [
-        31
+    "behind": [
+        17
     ],
-    "safe": [
-        21
+    "big": [
+        13,
+        16
     ],
-    "sam": [
-        72
-    ],
-    "santa": [
+    "black": [
         26
     ],
-    "save": [
-        37,
-        72
+    "blogger": [
+        25
+    ],
+    "bolivia": [
+        8
+    ],
+    "building": [
+        17
+    ],
+    "built": [
+        4
+    ],
+    "bushfires": [
+        7,
+        18
+    ],
+    "california": [
+        22
+    ],
+    "can": [
+        28
+    ],
+    "capital": [
+        15,
+        17
+    ],
+    "case": [
+        11
+    ],
+    "caught": [
+        27
+    ],
+    "celebrates": [
+        17,
+        26
+    ],
+    "central": [
+        8
+    ],
+    "change": [
+        27
+    ],
+    "chase": [
+        27
+    ],
+    "chief": [
+        5
+    ],
+    "child": [
+        20
+    ],
+    "chinese": [
+        4
+    ],
+    "city": [
+        1,
+        8
+    ],
+    "civilian": [
+        12
+    ],
+    "claim": [
+        12
+    ],
+    "clarita": [
+        22
+    ],
+    "clean": [
+        4
+    ],
+    "clothes": [
+        25
+    ],
+    "come": [
+        13
+    ],
+    "comfortable": [
+        25
+    ],
+    "communism": [
+        15
+    ],
+    "communist": [
+        15
+    ],
+    "completely": [
+        2
+    ],
+    "confident": [
+        25
+    ],
+    "congress": [
+        19,
+        21
+    ],
+    "convict": [
+        9
+    ],
+    "could": [
+        5,
+        24
+    ],
+    "court": [
+        11
+    ],
+    "cover": [
+        25
+    ],
+    "crisis": [
+        8
+    ],
+    "cuba": [
+        17
+    ],
+    "czech": [
+        3,
+        15
+    ],
+    "day": [
+        11
+    ],
+    "dead": [
+        8
+    ],
+    "deal": [
+        16
+    ],
+    "death": [
+        6,
+        12
+    ],
+    "defeat": [
+        5
+    ],
+    "defence": [
+        5,
+        16
+    ],
+    "democrat": [
+        2
+    ],
+    "demonstration": [
+        3
+    ],
+    "destroyed": [
+        7
+    ],
+    "die": [
+        11
+    ],
+    "dismantle": [
+        4
+    ],
+    "display": [
+        16
+    ],
+    "dispute": [
+        10
+    ],
+    "division": [
+        10
+    ],
+    "doesnt": [
+        2
+    ],
+    "downfall": [
+        15
+    ],
+    "dubai": [
+        16
+    ],
+    "duke": [
+        9
+    ],
+    "easter": [
+        5
+    ],
+    "edible": [
+        28
+    ],
+    "eight": [
+        10,
+        12
+    ],
+    "election": [
+        2
+    ],
+    "energy": [
+        14
+    ],
+    "epstein": [
+        9
+    ],
+    "erupt": [
+        1
+    ],
+    "estimate": [
+        3
+    ],
+    "evacuate": [
+        22
+    ],
+    "event": [
+        16
+    ],
+    "evidence": [
+        11
+    ],
+    "exboyfriend": [
+        6
+    ],
+    "exboyfriends": [
+        6
+    ],
+    "execution": [
+        11
+    ],
+    "exhibitor": [
+        16
+    ],
+    "expect": [
+        16
+    ],
+    "explain": [
+        20
+    ],
+    "explore": [
+        17
+    ],
+    "facilitate": [
+        6
+    ],
+    "family": [
+        12
+    ],
+    "famous": [
+        17
+    ],
+    "farm": [
+        28
+    ],
+    "fashion": [
+        25
+    ],
+    "father": [
+        27
+    ],
+    "fear": [
+        5
+    ],
+    "feel": [
+        25
+    ],
+    "felt": [
+        9
+    ],
+    "fighter": [
+        26
+    ],
+    "find": [
+        13
+    ],
+    "fire": [
+        18,
+        22
+    ],
+    "five": [
+        8
+    ],
+    "flight": [
+        23
+    ],
+    "football": [
+        10
+    ],
+    "footballer": [
+        10
+    ],
+    "former": [
+        8,
+        19,
+        21
+    ],
+    "found": [
+        6
+    ],
+    "foundation": [
+        17
+    ],
+    "france": [
+        14,
+        26
+    ],
+    "french": [
+        26
+    ],
+    "fresh": [
+        28
+    ],
+    "game": [
+        10,
+        13
+    ],
+    "gaza": [
+        12
+    ],
+    "ghost": [
+        15
+    ],
+    "gilets": [
+        14
+    ],
+    "go": [
+        1,
+        14
+    ],
+    "grip": [
+        14
+    ],
+    "guilty": [
+        6
+    ],
+    "gunman": [
+        22
+    ],
+    "half": [
+        23
+    ],
+    "halt": [
+        11
+    ],
+    "haul": [
+        23
+    ],
+    "havana": [
+        17
+    ],
+    "health": [
+        27
+    ],
+    "hearing": [
+        19
+    ],
+    "heart": [
+        27
+    ],
+    "heiress": [
+        6
+    ],
+    "help": [
+        4,
+        21,
+        24,
+        26
+    ],
+    "high": [
+        25
+    ],
+    "highprofile": [
+        11
+    ],
+    "hike": [
+        1
+    ],
+    "history": [
+        17,
+        26
+    ],
+    "hold": [
+        18
+    ],
+    "home": [
+        7,
+        9,
+        27
+    ],
+    "hong": [
+        4
+    ],
+    "honourable": [
+        9
+    ],
+    "hour": [
+        23
+    ],
+    "house": [
+        7
+    ],
+    "hurl": [
+        13
+    ],
+    "increasingly": [
+        24
+    ],
+    "industry": [
+        16
+    ],
+    "innocent": [
+        11
+    ],
+    "institute": [
+        24
+    ],
+    "interest": [
+        21
+    ],
+    "interrupt": [
+        19
+    ],
+    "interview": [
+        9
+    ],
+    "investigate": [
+        12
+    ],
+    "iran": [
+        1
+    ],
+    "irish": [
+        13
+    ],
+    "israel": [
+        12
+    ],
+    "israelgaza": [
+        12
+    ],
+    "issue": [
+        2
+    ],
+    "jaunes": [
+        14
+    ],
+    "jeffrey": [
+        9
+    ],
+    "jones": [
+        23
+    ],
+    "kiev": [
+        21
+    ],
+    "kill": [
+        8,
+        12,
+        22
+    ],
+    "kind": [
+        24
+    ],
+    "kindness": [
+        24
+    ],
+    "kong": [
+        4
+    ],
+    "lanka": [
+        5
+    ],
+    "lawyer": [
+        6,
+        11
+    ],
+    "least": [
+        1,
+        22
+    ],
+    "left": [
+        4
+    ],
+    "li": [
+        6
+    ],
+    "live": [
+        24
+    ],
+    "livetweets": [
+        19
+    ],
+    "location": [
+        15
+    ],
+    "london": [
+        23
+    ],
+    "longer": [
+        24
+    ],
+    "lose": [
+        7
+    ],
+    "luke": [
+        23
+    ],
+    "make": [
+        18
+    ],
+    "mark": [
+        3
+    ],
+    "meet": [
+        16
+    ],
+    "member": [
+        12
+    ],
+    "memorable": [
+        15
+    ],
+    "million": [
+        20
+    ],
+    "modest": [
+        25
+    ],
+    "month": [
+        7
+    ],
+    "mr": [
+        2
+    ],
+    "murder": [
+        6,
+        11
+    ],
+    "new": [
+        11,
+        13,
+        24
+    ],
+    "nigeria": [
+        27
+    ],
+    "nigerian": [
+        27
+    ],
+    "nonstop": [
+        23
+    ],
+    "obama": [
+        2
+    ],
+    "offender": [
+        9
+    ],
+    "onboard": [
+        23
+    ],
+    "one": [
+        12
+    ],
+    "open": [
+        22
+    ],
+    "oppose": [
+        27
+    ],
+    "oversaw": [
+        5
+    ],
+    "paris": [
+        26
+    ],
+    "pay": [
+        10
+    ],
+    "people": [
+        3,
+        18,
+        20,
+        22,
+        26
+    ],
+    "petrol": [
+        1
+    ],
+    "picture": [
+        17
+    ],
+    "player": [
+        10
+    ],
+    "polarise": [
+        24
+    ],
+    "police": [
+        3
+    ],
+    "polio": [
+        27
+    ],
+    "popularity": [
+        13
+    ],
+    "power": [
+        5
+    ],
+    "prague": [
+        15
+    ],
+    "president": [
+        5,
+        8,
+        19
+    ],
+    "price": [
+        1
+    ],
+    "prince": [
+        9
+    ],
+    "problem": [
+        18
+    ],
+    "prof": [
+        11
+    ],
+    "promorales": [
+        8
+    ],
+    "protest": [
+        1,
+        4,
+        8,
+        14
+    ],
+    "protester": [
+        1,
+        3,
+        4
+    ],
+    "ration": [
+        1
+    ],
+    "rebel": [
+        5
+    ],
+    "recall": [
+        21
+    ],
+    "recent": [
+        7
+    ],
+    "reed": [
+        11
+    ],
+    "regime": [
+        15
+    ],
+    "removal": [
+        21
+    ],
+    "resistance": [
+        26
+    ],
+    "responds": [
+        19
+    ],
+    "restaurant": [
+        28
+    ],
+    "revolution": [
+        3,
+        15
+    ],
+    "revolutionary": [
+        2
+    ],
+    "rodney": [
+        11
+    ],
+    "sacaba": [
+        8
+    ],
+    "sale": [
+        25
+    ],
+    "santa": [
+        22
     ],
     "say": [
+        6,
+        8,
+        9,
+        11,
         12,
-        25,
-        30,
-        37,
-        47,
-        49,
-        58,
-        62,
-        64,
-        65
-    ],
-    "scale": [
-        62
-    ],
-    "scandal": [
-        71
-    ],
-    "scare": [
         21
     ],
     "school": [
-        9,
-        26,
-        77
-    ],
-    "science": [
-        71
-    ],
-    "scientist": [
-        62
-    ],
-    "scotland": [
-        64
-    ],
-    "screen": [
-        63
-    ],
-    "sea": [
-        33
-    ],
-    "seabed": [
-        33
-    ],
-    "secret": [
-        32
-    ],
-    "secretary": [
-        3
-    ],
-    "security": [
-        20
-    ],
-    "selection": [
-        23
-    ],
-    "sell": [
         22
     ],
-    "send": [
-        24,
-        49
-    ],
-    "series": [
-        11,
-        68
+    "see": [
+        1,
+        5
     ],
     "set": [
-        19
-    ],
-    "seven": [
-        76
-    ],
-    "sex": [
-        40
-    ],
-    "sexually": [
-        77
-    ],
-    "shady": [
-        25
-    ],
-    "shed": [
-        32
-    ],
-    "sheen": [
-        60
-    ],
-    "shoot": [
-        26
-    ],
-    "shot": [
-        23
-    ],
-    "shout": [
-        72
-    ],
-    "show": [
-        34,
-        39
-    ],
-    "side": [
-        40
-    ],
-    "signal": [
-        62
-    ],
-    "singer": [
-        46
-    ],
-    "sir": [
-        39,
-        46
-    ],
-    "skull": [
-        75
-    ],
-    "smuggler": [
-        31
-    ],
-    "sneak": [
-        31
-    ],
-    "soap": [
-        42
-    ],
-    "soar": [
-        33
-    ],
-    "social": [
-        66
-    ],
-    "someone": [
-        55
-    ],
-    "sonny": [
-        28
-    ],
-    "soubry": [
-        49
-    ],
-    "sought": [
-        17
-    ],
-    "sourtoe": [
-        5
-    ],
-    "south": [
-        37,
-        39,
-        57
-    ],
-    "speaks": [
-        40,
-        46
-    ],
-    "special": [
-        41,
-        68
-    ],
-    "sport": [
-        42
-    ],
-    "spot": [
-        6
-    ],
-    "spotlight": [
-        38
-    ],
-    "spy": [
-        8
-    ],
-    "square": [
-        9
-    ],
-    "stag": [
-        50
-    ],
-    "stage": [
-        63
-    ],
-    "star": [
-        42
-    ],
-    "start": [
-        19
-    ],
-    "starve": [
-        29
-    ],
-    "state": [
-        24,
-        30
-    ],
-    "stay": [
-        40
-    ],
-    "stem": [
-        2
-    ],
-    "step": [
-        28
-    ],
-    "stevenson": [
-        5
-    ],
-    "stewart": [
-        46
-    ],
-    "still": [
-        59
-    ],
-    "stone": [
-        2
-    ],
-    "story": [
-        15,
+        11,
         18,
-        43
-    ],
-    "stress": [
-        50
-    ],
-    "strictly": [
-        42
-    ],
-    "strip": [
-        31
-    ],
-    "student": [
-        26,
-        78
-    ],
-    "study": [
-        65
-    ],
-    "subject": [
-        57
-    ],
-    "suburb": [
-        36
-    ],
-    "suffer": [
-        64,
-        75
-    ],
-    "suggest": [
-        71
-    ],
-    "suggestion": [
-        73
-    ],
-    "summit": [
-        44
-    ],
-    "sunday": [
-        43
-    ],
-    "surge": [
-        9
-    ],
-    "surround": [
-        3
-    ],
-    "susan": [
-        77
-    ],
-    "suspend": [
-        74
-    ],
-    "sussex": [
-        43
-    ],
-    "swap": [
-        8
-    ],
-    "sweden": [
-        36
-    ],
-    "swedish": [
-        36
-    ],
-    "sydney": [
-        7
-    ],
-    "system": [
-        20
-    ],
-    "taf": [
-        76
-    ],
-    "take": [
-        8,
-        17,
-        19,
-        37,
-        51,
-        67,
-        68
-    ],
-    "talk": [
-        69,
-        70
-    ],
-    "tangle": [
-        50
-    ],
-    "tape": [
-        50
-    ],
-    "tarrant": [
-        60
-    ],
-    "tattoo": [
-        67
-    ],
-    "tax": [
-        45,
-        47
-    ],
-    "team": [
-        46
-    ],
-    "tech": [
-        45
-    ],
-    "tell": [
-        25,
-        28
-    ],
-    "temperature": [
-        62
-    ],
-    "teresa": [
-        3
-    ],
-    "testimony": [
-        1
-    ],
-    "therapy": [
-        65
-    ],
-    "think": [
-        35
-    ],
-    "thousand": [
-        38
-    ],
-    "threat": [
-        49
-    ],
-    "three": [
-        6,
-        27
-    ],
-    "thrust": [
-        38
-    ],
-    "thursday": [
-        69
-    ],
-    "tidal": [
-        9
-    ],
-    "tide": [
-        30
-    ],
-    "time": [
-        14,
-        40
-    ],
-    "toe": [
-        5
-    ],
-    "tonne": [
-        10
-    ],
-    "tooth": [
-        32
-    ],
-    "top": [
-        23
-    ],
-    "topic": [
-        56
-    ],
-    "tory": [
-        69
-    ],
-    "train": [
-        46
-    ],
-    "transforms": [
-        60
-    ],
-    "treacherous": [
-        49
-    ],
-    "treaty": [
-        35
-    ],
-    "trial": [
-        60,
-        73
-    ],
-    "trouble": [
-        15
-    ],
-    "trump": [
-        1,
-        2,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        27,
-        44
-    ],
-    "turkey": [
         24
     ],
-    "turn": [
-        6,
-        66
+    "several": [
+        1
     ],
-    "tv": [
-        13,
-        42,
-        60
-    ],
-    "tweet": [
-        1,
-        39,
-        74
-    ],
-    "twitter": [
-        74
-    ],
-    "two": [
-        26,
-        56,
-        70,
-        77
-    ],
-    "u": [
-        1,
-        6,
-        14,
-        17,
-        25,
-        40,
-        44
-    ],
-    "ugali": [
-        21
-    ],
-    "uk": [
-        3,
-        44,
-        59,
-        61
-    ],
-    "ukraine": [
-        1,
-        15,
-        17,
-        18,
-        25
-    ],
-    "ultralong": [
-        7
-    ],
-    "unfolded": [
-        15
-    ],
-    "union": [
-        57
-    ],
-    "unite": [
-        42
-    ],
-    "unprecedented": [
-        36
-    ],
-    "unrest": [
-        4
-    ],
-    "untrue": [
-        43
-    ],
-    "upon": [
-        12
-    ],
-    "us": [
-        76
-    ],
-    "use": [
-        55,
-        70,
-        73
-    ],
-    "vast": [
-        19
-    ],
-    "venice": [
-        9,
-        30
-    ],
-    "veteran": [
-        16
-    ],
-    "view": [
-        16
-    ],
-    "viewer": [
-        68
-    ],
-    "virginia": [
-        16
-    ],
-    "visit": [
-        44
-    ],
-    "vodka": [
-        73
-    ],
-    "voter": [
-        55
-    ],
-    "vulnerable": [
-        20
-    ],
-    "wale": [
-        37
-    ],
-    "walk": [
-        72
-    ],
-    "walker": [
-        72
-    ],
-    "want": [
-        24,
-        60
-    ],
-    "war": [
-        42
-    ],
-    "warm": [
-        35,
-        62
-    ],
-    "warn": [
-        21
-    ],
-    "waste": [
-        10,
-        50
-    ],
-    "watch": [
-        13
-    ],
-    "water": [
-        9,
-        48
-    ],
-    "waterbuses": [
+    "sex": [
         9
     ],
-    "way": [
-        35
+    "shadow": [
+        5
     ],
-    "weather": [
-        62
-    ],
-    "week": [
-        4,
-        23,
-        53
-    ],
-    "wellknown": [
+    "shady": [
         21
     ],
-    "west": [
-        16,
-        63
+    "shape": [
+        26
     ],
-    "whats": [
-        36
-    ],
-    "wheelchair": [
-        76
-    ],
-    "white": [
-        39
-    ],
-    "who": [
-        18
-    ],
-    "wildlife": [
-        6
-    ],
-    "williams": [
-        28,
-        38
-    ],
-    "willingly": [
-        73
-    ],
-    "win": [
-        61
-    ],
-    "woke": [
-        38
-    ],
-    "woman": [
-        51,
-        64,
-        73
-    ],
-    "work": [
-        56,
-        65
-    ],
-    "worker": [
-        66
-    ],
-    "world": [
-        42,
-        63
-    ],
-    "would": [
-        45,
-        47,
-        53
-    ],
-    "write": [
-        49
-    ],
-    "year": [
-        10,
-        29,
-        30,
-        36,
-        42,
-        47,
-        77
-    ],
-    "york": [
-        40,
-        77
-    ],
-    "young": [
-        48,
-        70
-    ],
-    "zaelke": [
-        35
-    ],
-    "zimbabwean": [
-        29
-    ],
-    "\u00a3100bn": [
-        47
-    ],
-    "\u00a318m": [
-        76
-    ],
-    "\u00a320bn": [
-        45
-    ],
-    "\u00a37500": [
+    "shoot": [
         22
     ],
-    "\u00a389": [
-        53
+    "show": [
+        16,
+        26
     ],
-    "\u00e1\u00f1ez": [
-        12
+    "smith": [
+        7
     ],
-    "\u2018": [
+    "snail": [
         28
     ],
-    "\u2019": [
+    "soldier": [
+        4
+    ],
+    "son": [
+        27
+    ],
+    "spain": [
+        10
+    ],
+    "spanish": [
+        20
+    ],
+    "speak": [
+        20
+    ],
+    "spell": [
+        20
+    ],
+    "sport": [
+        13
+    ],
+    "sri": [
+        5
+    ],
+    "start": [
+        18
+    ],
+    "stay": [
+        9
+    ],
+    "still": [
+        14
+    ],
+    "store": [
+        25
+    ],
+    "street": [
+        1,
+        4,
+        25
+    ],
+    "strike": [
+        10
+    ],
+    "student": [
+        22
+    ],
+    "study": [
+        24
+    ],
+    "sunday": [
+        5
+    ],
+    "supply": [
+        28
+    ],
+    "supporter": [
+        8
+    ],
+    "surprise": [
+        1
+    ],
+    "switch": [
+        28
+    ],
+    "sydney": [
+        23
+    ],
+    "symbolise": [
+        15
+    ],
+    "system": [
+        2
+    ],
+    "take": [
+        1,
+        18
+    ],
+    "tamil": [
+        5
+    ],
+    "tear": [
+        2
+    ],
+    "tell": [
+        21
+    ],
+    "terror": [
+        5
+    ],
+    "testifies": [
+        19
+    ],
+    "texas": [
+        11
+    ],
+    "thats": [
+        13
+    ],
+    "thing": [
+        9
+    ],
+    "think": [
+        2
+    ],
+    "three": [
+        15
+    ],
+    "tiffany": [
+        6
+    ],
+    "time": [
+        9
+    ],
+    "top": [
+        10,
+        28
+    ],
+    "tour": [
+        26
+    ],
+    "tricky": [
+        20
+    ],
+    "trump": [
+        19
+    ],
+    "try": [
+        20
+    ],
+    "twitter": [
+        19
+    ],
+    "two": [
+        22,
+        28
+    ],
+    "u": [
+        2,
+        13,
+        20,
+        21,
+        28
+    ],
+    "ukraine": [
+        19,
+        21
+    ],
+    "ultralong": [
+        23
+    ],
+    "use": [
+        27
+    ],
+    "vaccination": [
+        27
+    ],
+    "vast": [
+        18
+    ],
+    "velvet": [
+        15
+    ],
+    "vest": [
+        14
+    ],
+    "vote": [
+        5
+    ],
+    "vow": [
+        12
+    ],
+    "warn": [
+        2
+    ],
+    "warns": [
+        2
+    ],
+    "warren": [
+        7
+    ],
+    "wealth": [
+        6
+    ],
+    "weekend": [
+        10
+    ],
+    "woman": [
+        10
+    ],
+    "word": [
+        20
+    ],
+    "worker": [
+        27
+    ],
+    "world": [
+        24
+    ],
+    "writer": [
+        26
+    ],
+    "wrong": [
+        9
+    ],
+    "year": [
+        14,
+        16,
+        17
+    ],
+    "yellow": [
+        14
+    ],
+    "york": [
+        9
+    ],
+    "youngster": [
+        20
+    ],
+    "yovanovitch": [
+        19
+    ],
+    "zut": [
         28
     ]
 }

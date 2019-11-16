@@ -1,6 +1,3 @@
-import json
+import query_processor
 
-#load index
-with open('data/index.json', 'r') as f:
-    index = json.load(f)
-
+query_processor.search("czech")
