@@ -1,0 +1,1 @@
+http://feeds.bbci.co.uk/news/world/rss.xml,http://feeds.bbci.co.uk/news/uk/rss.xml,http://www.independent.co.uk/news/uk/rss,feed:https://rss.nytimes.com/services/xml/rss/nyt/World.xml,feed:https://rss.nytimes.com/services/xml/rss/nyt/US.xml,feed://feeds.washingtonpost.com/rss/world?tid=lk_inline_manual_13

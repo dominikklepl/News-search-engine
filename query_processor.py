@@ -1,9 +1,5 @@
 #import
 import nltk
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('stopwords')
-nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk import pos_tag
@@ -13,7 +9,8 @@ import json
 import gensim
 import numpy as np
 import pandas as pd
-
+from datetime import date, timedelta
+import time
 
 #tag words
 def get_wordnet_pos(word):
@@ -111,10 +108,61 @@ def print_results(result_df):
     else:
         print("{}\n" .format(res.link))
 
-def search(query):
+#date restriction
+def get_today():
+  today = date.today()
+  today = today.strftime("%d/%m/%Y")
+  return [today]
+
+def daterange(start, end):
+    for n in range(int ((end - start).days)+1):
+        yield start + timedelta(n)
+
+def format_date(dt):
+  dt = dt.split("/")
+  dt = date(int(dt[2]), int(dt[1]), int(dt[0]))
+  return dt
+
+def date_interval(interval):
+  interval = interval.split("-")
+  start = format_date(interval[0])
+  end = format_date(interval[1])
+  interval = []
+  for dt in daterange(start, end):
+      interval.append(dt.strftime("%d/%m/%Y"))
+  return interval
+
+def filter_date(dat, df):
+    if len(df) == 0:
+        return df
+    else:
+        if dat is "today":
+            dat = get_today()
+        if len(dat) == 10:
+            dat = [dat]
+        if len(dat) > 11:
+            dat = date_interval(dat)
+
+        result = df[df.published.isin(dat)].reset_index(drop=True)
+        return result
+
+#search engine itself
+def search(query, dat=None):
+    start = time.time()
+
     result = search_googleish(query)
     result = rank_results(query, result)
-    print_results(result)
 
+    if dat is not None:
+        result = filter_date(dat, result)
 
+    n_retrieved = len(result)
+    end = time.time()
+    time_taken = round((end - start), 2)
+
+    if n_retrieved == 0:
+        print("No articles matching search criteria found.")
+    else:
+        print("({} results found in {} seconds)\n".format(n_retrieved, time_taken))
+        print_results(result)
 

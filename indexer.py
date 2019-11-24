@@ -1,8 +1,8 @@
 import nltk
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('stopwords')
-nltk.download('punkt')
+#nltk.download('averaged_perceptron_tagger')
+#nltk.download('wordnet')
+#nltk.download('stopwords')
+#nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk import pos_tag
@@ -69,7 +69,7 @@ def index_all(df, index):
     index = index_it(entry = entry, index = index)
   return index
 
-def build_index(transformed_df, index_path="index.json", first_time=False):
+def build_index(transformed_df, index_path="data/index.json", first_time=False):
     if first_time:
         index = {}
     else:
@@ -91,30 +91,39 @@ def average_vectors(word2vec_model, doc):
     else:
       return np.mean(word2vec_model[doc], axis=0)
 
-def get_vectors_all(transformed_df, vec_path="doc_vecs.csv", first_time=False):
+def get_vectors_all(transformed_df, vec_path="data/doc_vecs.csv", first_time=False):
     if first_time:
-        doc_vecs = {}
+        doc_vecs = pd.DataFrame()
     else:
-        doc_vecs = pd.read_csv(vec_path)
-
+        doc_vecs = pd.read_csv(vec_path, index_col = 'Unnamed: 0')
+        doc_vecs = doc_vecs.reset_index(drop = True)
+    transformed_df = transformed_df.reset_index(drop = True)
+    new_vecs = {}
     for i in range(len(transformed_df)):
         row = transformed_df.loc[i, :]
         text = row.text.split()
-        ID = int(row.ID)
-        doc_vecs[str(ID)] = average_vectors(word2vec, text)
+        ID = row.ID
+        new_vecs[ID] = average_vectors(word2vec, text)
 
     #to pandas dataframe
-    doc_vecs = pd.DataFrame.from_dict(data=doc_vecs, orient="index")
-    doc_vecs['ID'] = doc_vecs.index
+    new_vecs = pd.DataFrame.from_dict(data=new_vecs, orient="index")
+    new_vecs.columns = new_vecs.columns.astype(str)
+    new_vecs['ID'] = new_vecs.index
+
+    #add to already stored vecs
+    doc_vecs = doc_vecs.append(new_vecs)
+    doc_vecs = doc_vecs.drop_duplicates(subset = "ID")
+    doc_vecs = doc_vecs.reset_index(drop=True)
 
     # write to csv
     doc_vecs.to_csv((vec_path))
 
 
-def update_index_vecs (df, index_path="index.json", vec_path="doc_vecs.csv", first_time=False):
+def update_index_vecs (df, index_path="data/index.json", vec_path="data/doc_vecs.csv", first_time=False):
     if df is None:
         print("Nothing to update")
     else:
+        df = df.reset_index(drop=True)
         to_add = transform_df(df)
         build_index(transformed_df=to_add, index_path=index_path, first_time=first_time)
         get_vectors_all(transformed_df=to_add, vec_path=vec_path, first_time=first_time)

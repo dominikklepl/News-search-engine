@@ -14,7 +14,7 @@ def process_entry(entry, ID_n):
               str(entry.published_parsed.tm_year)
   return [ID, title, summary, link, published]
 
-def crawl(URL, PATH):
+def crawl(URL, PATH = "data/"):
     # load RSS feed from specified URL
     feed = feedparser.parse(URL)
 
@@ -40,6 +40,11 @@ def crawl(URL, PATH):
 
     already_scraped = (old_news/feed_len)*100
     print("{} % of entries were already scraped.".format(already_scraped))
+
+    # save info about scraped:new ratio
+    new_scraped = {"ratio": [already_scraped]}
+    new_scraped = pd.DataFrame.from_dict(new_scraped)
+    new_scraped.to_csv(PATH + "rate.csv", index=False)
 
     #if some new entries were present, correct the IDs and add it to the database
     if len(data) > 0:
