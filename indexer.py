@@ -128,7 +128,3 @@ def update_index_vecs (df, index_path="data/index.json", vec_path="data/doc_vecs
         build_index(transformed_df=to_add, index_path=index_path, first_time=first_time)
         get_vectors_all(transformed_df=to_add, vec_path=vec_path, first_time=first_time)
 
-
-
-
-

@@ -11,6 +11,11 @@ import numpy as np
 import pandas as pd
 from datetime import date, timedelta
 import time
+from contextlib import redirect_stdout
+import webbrowser
+from urllib.request import pathname2url
+import os
+from bs4 import BeautifulSoup
 
 #tag words
 def get_wordnet_pos(word):
@@ -99,20 +104,24 @@ def rank_results(query, results):
   return results
 
 def print_results(result_df):
+  result_df = result_df.reset_index(drop = True)
   for i in range(len(result_df)):
     res = result_df.loc[i, :]
     print(res.title)
     print(res.summary)
+    print(res.published)
     if i == len(result_df):
         print(res.link)
     else:
-        print("{}\n" .format(res.link))
+        print("{}" .format(res.link))
+        print("---------")
 
 #date restriction
 def get_today():
   today = date.today()
   today = today.strftime("%d/%m/%Y")
-  return [today]
+  today = [today]
+  return today
 
 def daterange(start, end):
     for n in range(int ((end - start).days)+1):
@@ -136,7 +145,7 @@ def filter_date(dat, df):
     if len(df) == 0:
         return df
     else:
-        if dat is "today":
+        if "today" in dat:
             dat = get_today()
         if len(dat) == 10:
             dat = [dat]
@@ -145,6 +154,78 @@ def filter_date(dat, df):
 
         result = df[df.published.isin(dat)].reset_index(drop=True)
         return result
+
+def print_html_long(txt_output):
+    soup = BeautifulSoup(features="html.parser")
+    style = soup.new_tag("style")
+    style.string = ".content {\nmax-width: 600px;\nmargin: auto;\n}"
+    soup.insert(0, style)
+    body = soup.new_tag('body')
+    soup.insert(1, body)
+    div = soup.new_tag("div")
+    div["class"] = "content"
+    body.insert(0, div)
+    table = soup.new_tag('table')
+    # table["style"] = "width:80%"
+    div.insert(0, table)
+
+    f = open(txt_output, 'r')
+    docs = f.read().split("---------")
+
+    line = docs[0].split("\n")[0]
+    row = soup.new_tag('tr')
+    col = soup.new_tag('th')
+    col.string = line
+    row.insert(0, col)
+    table.insert(len(table.contents), row)
+
+    docs[0] = docs[0].split("seconds)")[1]
+
+    for line in docs:
+        texts = line.split("\n")
+        for text in texts:
+            row = soup.new_tag('tr')
+            col = soup.new_tag('td')
+
+            if "www" in text:
+                link = soup.new_tag("a", href=text)
+                link.string = text
+                col.insert(0, link)
+            else:
+                col.string = text
+            row.insert(0, col)
+            table.insert(len(table.contents), row)
+
+    with open('data/output.html', 'w') as outfile:
+        outfile.write(soup.prettify())
+
+    url = 'file:{}'.format(pathname2url(os.path.abspath('data/output.html')))
+    webbrowser.open_new_tab(url)
+
+def print_html_short():
+    soup = BeautifulSoup(features="html.parser")
+    style = soup.new_tag("style")
+    style.string = ".content {\nmax-width: 600px;\nmargin: auto;\n}"
+    soup.insert(0, style)
+    body = soup.new_tag('body')
+    soup.insert(1, body)
+    div = soup.new_tag("div")
+    div["class"] = "content"
+    body.insert(0, div)
+    table = soup.new_tag('table')
+    div.insert(0, table)
+    row = soup.new_tag('tr')
+    col = soup.new_tag('th')
+    col.string = "No articles matching search criteria found."
+    row.insert(0, col)
+    table.insert(len(table.contents), row)
+
+    with open('data/output.html', 'w') as outfile:
+        outfile.write(soup.prettify())
+
+    url = 'file:{}'.format(pathname2url(os.path.abspath('data/output.html')))
+    webbrowser.open_new_tab(url)
+
 
 #search engine itself
 def search(query, dat=None):
@@ -166,3 +247,21 @@ def search(query, dat=None):
         print("({} results found in {} seconds)\n".format(n_retrieved, time_taken))
         print_results(result)
 
+        with open('data/output.txt', 'w') as f:
+            with redirect_stdout(f):
+                print("({} results found in {} seconds)".format(n_retrieved, time_taken))
+                print_results(result)
+        print_html_long('data/output.txt')
+
+def search_news():
+    query = str(input("Search for: "))
+    filter = str(input("Do you want to filter results by date? For yes press ""Y"" for no press Enter "))
+    if filter is "Y":
+        dt = str(input("Please enter date in format DD/MM/YYYY. Single date, comma separated date interval (DD/MM/YYYY - DD/MM/YYYY) or ""today"" is accepted. "))
+    else:
+        dt = None
+    print(type(dt))
+
+    search(query=query, dat=dt)
+
+search_news()
