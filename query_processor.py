@@ -243,6 +243,7 @@ def search(query, dat=None):
 
     if n_retrieved == 0:
         print("No articles matching search criteria found.")
+        print_html_short()
     else:
         print("({} results found in {} seconds)\n".format(n_retrieved, time_taken))
         print_results(result)
@@ -263,5 +264,3 @@ def search_news():
     print(type(dt))
 
     search(query=query, dat=dt)
-
-search_news()

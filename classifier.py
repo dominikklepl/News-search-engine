@@ -32,5 +32,6 @@ def predict_topic():
   prediction = model.predict([text])[0]
   print("This text is most likely about {}." .format(prediction))
 
-while True:
-    predict_topic()
+def predict_topic2(text):
+  prediction = model.predict([text])[0]
+  print("This text is most likely about {}." .format(prediction))
