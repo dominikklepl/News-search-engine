@@ -1,0 +1,97 @@
+---
+title: "Plotting"
+author: "Dominik Klepl"
+date: "12/2/2019"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+library(ggthemes)
+```
+
+
+### Automatic hit rate adjustment
+```{r}
+hit = read.csv("data/rate_history.csv")
+colnames(hit)[1] = "time"
+hit$time = as.POSIXct(hit$time, format = "%d/%m/%Y %H:%M:%S")
+hit$hit_rate = (hit$hit_rate/60)
+hit$old.ratio = round(hit$old.ratio, 2)
+
+hit_rate = ggplot(hit, aes(x=time, y=hit_rate))+
+  geom_line()+
+  geom_point()+
+  geom_label(label = hit$old.ratio,
+             nudge_y = 40)+
+  theme_few()+
+  labs(title = "History of hit rate adjustment",
+       caption = "RSS feed: Washington Post World",
+       subtitle = "and percentage of already crawled articles",
+       x = "",
+       y = "Hit rate in minutes")+
+  theme(plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5))
+
+ggsave("Report/Hit_rate.jpg", hit_rate, width = 7, height = 4)
+```
+
+## News classification
+```{r}
+library(readxl)
+data = read_excel("Report/model_evaluation.xlsx", col_types = "numeric")
+data = data[2:4,]
+colnames(data)[1] = "model"
+data$model = c("Naive Bayes", "Ridge", "XGBoost")
+
+acc = ggplot(data, aes(x = model, y = test_accuracy))+
+  geom_point()+
+  geom_errorbar(aes(ymin = test_accuracy - 2.5*test_accuracy_sd,
+                    ymax = test_accuracy + 2.5*test_accuracy_sd),
+                width = 0.2)+
+  theme_few()+
+  xlab("")+
+  ylab("")+
+  ggtitle("Accuracy")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+f1 = ggplot(data, aes(x = model, y = test_f1_weighted))+
+  geom_point()+
+  geom_errorbar(aes(ymin = test_f1_weighted - 2.5*test_f1_weighted_sd, 
+                    ymax = test_f1_weighted + 2.5*test_f1_weighted_sd), 
+                width = 0.2)+
+  theme_few()+
+  xlab("")+
+  ylab("")+
+  ggtitle("f1 score")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+precision = ggplot(data, aes(x = model, y = test_precision_weighted))+
+  geom_point()+
+  geom_errorbar(aes(ymin = test_precision_weighted - 2.5*test_precision_weighted_sd, 
+                    ymax = test_precision_weighted + 2.5*test_precision_weighted_sd),
+                width = 0.2)+
+  theme_few()+
+  xlab("")+
+  ylab("")+
+  ggtitle("Precision")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+recall = ggplot(data, aes(x = model, y = test_recall_weighted))+
+  geom_point()+
+  geom_errorbar(aes(ymin = test_recall_weighted - 2.5*test_recall_weighted_sd, 
+                    ymax = test_recall_weighted + 2.5*test_recall_weighted_sd), 
+                width = 0.2)+
+  theme_few()+
+  xlab("")+
+  ylab("")+
+  ggtitle("Recall")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+library(gridExtra)
+grid.arrange(acc, f1, precision, recall, nrow = 2, ncol = 2)
+
+g = arrangeGrob(acc, f1, precision, recall, nrow = 2, ncol = 2)
+ggsave("Report/model_performance.jpg", g, width = 8, height = 5)
+```
+
